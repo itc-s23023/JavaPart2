@@ -8,4 +8,9 @@ public class Rectangle {
         this.vertical = vertical;
         this.horizontal = horizontal;
     }
+
+    public double area() {
+        double ans = vertical * horizontal;
+        return ans;
+    }
 }
