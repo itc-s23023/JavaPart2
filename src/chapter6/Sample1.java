@@ -8,7 +8,6 @@ public class Sample1 {
         System.out.println("氏　名=" + tax.getName());
         System.out.println("所得額=" + tax.getShotoku());
         System.out.println("控除額=" + tax.getKoujo());
-
         System.out.println("所得税=" + tax.zeigaku());
     }
 }
